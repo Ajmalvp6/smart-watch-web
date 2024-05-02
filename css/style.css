@@ -1,0 +1,183 @@
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* first-page */
+
+.nav-move {
+  margin-left: 120px;
+}
+
+#spotlight {
+  background-color: black;
+
+  max-height: 100%;
+  min-height: 91vh;
+}
+
+#spotlight .spot .left h1 {
+  font-size: 55px;
+}
+
+.inp-btn {
+  border-radius: 10px;
+}
+
+.custom-search-botton {
+  background-color: #3858d6;
+  color: white;
+  border: none;
+  position: relative;
+
+  padding: 4px 25px;
+}
+
+.navbar-nav .nav-link{
+    color: #8B8E99 !important;
+}
+
+.navbar-nav .nav-link:hover{
+    color: #ffffff !important;
+}
+
+/* first-page-media-query */
+
+@media all and (max-width: 320px) {
+  img.watch {
+    width: 400px;
+  }
+
+  .nav-move {
+    margin-left: 0px;
+  }
+
+  .right-img img {
+    /* margin-right: 27px; */
+    margin: 0 auto;
+  }
+
+  .input-len {
+    width: 100%;
+  }
+  #spotlight .spot .left h1 {
+    font-size: 47px;
+  }
+  .item {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  
+
+  .review-cards .review-card {
+    width: 270px;
+    height: 200px;
+  }
+
+  .review-card img {
+    width: 10px;
+  }
+
+  .contact{
+    padding: 20px !important;
+    margin: 0 auto;
+  }
+
+  
+
+  .contact .left .custom-search-botton{
+   padding: 10px;
+    
+  }
+
+  
+
+
+  
+  
+}
+
+/* first-page-end */
+
+/* brands */
+
+section#brands {
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.item {
+  width: 280px;
+  height: 200px;
+  background-color: #e4e6e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.item .right {
+  
+  margin: 20px;
+}
+
+.review-card {
+  max-width: 500px;
+  height: 200px;
+  background-color:#F6F6F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.review-cards .review-card .right {
+  margin-left: 20px;
+}
+
+.contact{
+    width: 100%;
+    margin-top: 60px;
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    padding: 50px;
+    
+    
+    
+    
+}
+
+
+section#footer{
+    background-color: black;
+}
+
+section#footer ul li{
+   list-style: none;
+}
+
+section#footer ul li a{
+    text-decoration: none;
+    color: #8B8E99;
+}
+
+section#footer ul li a:hover{
+    
+    color: #e4e4e4;
+}
+
+
+
+
+
+
